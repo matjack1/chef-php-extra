@@ -31,7 +31,7 @@ pkgs = value_for_platform(
     "default" => packages
   },
   [ "debian", "ubuntu" ] => {
-    "default" => %w{ php-xcache }
+    "default" => %w{ php5-xcache }
   }
 )
 
